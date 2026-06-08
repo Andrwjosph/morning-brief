@@ -209,7 +209,7 @@ Return ONLY valid JSON — no markdown, no code fences, no explanation:
     try {
       // NOTE: We call /generate on our own server, NOT the Anthropic API directly.
       // Our server (server.js) holds the API key and forwards the request safely.
-      const res = await fetch('/generate', {
+      const res = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
