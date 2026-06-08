@@ -2,9 +2,8 @@
   "name": "morning-brief",
   "version": "1.0.0",
   "description": "Andy's personal morning briefing app",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node dev-server.js"
   },
   "dependencies": {
     "express": "^4.18.0"
